@@ -1,0 +1,24 @@
+{
+  "name": "test-paymit-api",
+  "version": "1.0.0",
+  "description": "Test PAYMIT (JSON REST) via swagger",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-node ",
+    "test-node": "mocha -R spec ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cashbar/test-paymit-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cashbar/test-paymit-api/issues"
+  },
+  "homepage": "https://github.com/cashbar/test-paymit-api#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "swagger-client": "^2.1.13"
+  }
+}
